@@ -1,3 +1,3 @@
-/home/ive/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir
-/home/ive/CLionProjects/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ive/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ive/CLionProjects/pdfTopng/untitled/cmake-build-debug/CMakeFiles/pdfTopng.dir
+/home/ive/CLionProjects/pdfTopng/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ive/CLionProjects/pdfTopng/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir

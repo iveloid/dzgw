@@ -1,19 +1,4 @@
-/opt/clion-2024.1.4/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/clion-2024.1.4/bin/ninja/linux/x64/ninja -G Ninja -S /home/ive/CLionProjects/untitled -B /home/ive/CLionProjects/untitled/cmake-build-debug
-CMake Error at CMakeLists.txt:5 (find_package):
-  By not providing "FindPoppler.cmake" in CMAKE_MODULE_PATH this project has
-  asked CMake to find a package configuration file provided by "Poppler", but
-  CMake did not find one.
-
-  Could not find a package configuration file provided by "Poppler" with any
-  of the following names:
-
-    PopplerConfig.cmake
-    poppler-config.cmake
-
-  Add the installation prefix of "Poppler" to CMAKE_PREFIX_PATH or set
-  "Poppler_DIR" to a directory containing one of the above files.  If
-  "Poppler" provides a separate development package or SDK, be sure it has
-  been installed.
-
-
--- Configuring incomplete, errors occurred!
+/opt/clion-2024.1.4/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/clion-2024.1.4/bin/ninja/linux/x64/ninja -G Ninja -S /home/ive/CLionProjects/pdfTopng/untitled -B /home/ive/CLionProjects/pdfTopng/untitled/cmake-build-debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ive/CLionProjects/pdfTopng/untitled/cmake-build-debug

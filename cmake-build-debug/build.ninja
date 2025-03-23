@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: untitled
+# Project: pdfTopng
 # Configurations: Debug
 # =============================================================================
 
@@ -39,46 +39,46 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/ive/CLionProjects/untitled/cmake-build-debug/
+cmake_ninja_workdir = /home/ive/CLionProjects/pdfTopng/untitled/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target untitled
+# Object build statements for EXECUTABLE target pdfTopng
 
 
 #############################################
-# Order-only phony target for untitled
+# Order-only phony target for pdfTopng
 
-build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
+build cmake_object_order_depends_target_pdfTopng: phony || CMakeFiles/pdfTopng.dir
 
-build CMakeFiles/untitled.dir/main.cpp.o: CXX_COMPILER__untitled_unscanned_Debug /home/ive/CLionProjects/untitled/main.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles/untitled.dir/main.cpp.o.d
+build CMakeFiles/pdfTopng.dir/main.cpp.o: CXX_COMPILER__pdfTopng_unscanned_Debug /home/ive/CLionProjects/pdfTopng/untitled/main.cpp || cmake_object_order_depends_target_pdfTopng
+  DEP_FILE = CMakeFiles/pdfTopng.dir/main.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I/usr/include/poppler/cpp -I/usr/include/poppler
-  OBJECT_DIR = CMakeFiles/untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles/untitled.dir
+  OBJECT_DIR = CMakeFiles/pdfTopng.dir
+  OBJECT_FILE_DIR = CMakeFiles/pdfTopng.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target untitled
+# Link build statements for EXECUTABLE target pdfTopng
 
 
 #############################################
-# Link the executable untitled
+# Link the executable pdfTopng
 
-build untitled: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.cpp.o
+build pdfTopng: CXX_EXECUTABLE_LINKER__pdfTopng_Debug CMakeFiles/pdfTopng.dir/main.cpp.o
   FLAGS = -g
-  LINK_LIBRARIES = -lpoppler-cpp
-  OBJECT_DIR = CMakeFiles/untitled.dir
+  LINK_LIBRARIES = -lpoppler-cpp  -lpoppler-cpp  -lpng
+  OBJECT_DIR = CMakeFiles/pdfTopng.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = untitled
-  TARGET_PDB = untitled.dbg
+  TARGET_FILE = pdfTopng
+  TARGET_PDB = pdfTopng.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/ive/CLionProjects/untitled/cmake-build-debug && /opt/clion-2024.1.4/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/ive/CLionProjects/pdfTopng/untitled/cmake-build-debug && /opt/clion-2024.1.4/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -89,7 +89,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/ive/CLionProjects/untitled/cmake-build-debug && /opt/clion-2024.1.4/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/ive/CLionProjects/untitled -B/home/ive/CLionProjects/untitled/cmake-build-debug
+  COMMAND = cd /home/ive/CLionProjects/pdfTopng/untitled/cmake-build-debug && /opt/clion-2024.1.4/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/ive/CLionProjects/pdfTopng/untitled -B/home/ive/CLionProjects/pdfTopng/untitled/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -105,9 +105,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/ive/CLionProjects/untitled/cmake-build-debug
+# Folder: /home/ive/CLionProjects/pdfTopng/untitled/cmake-build-debug
 
-build all: phony untitled
+build all: phony pdfTopng
 
 # =============================================================================
 # Built-in targets
@@ -116,14 +116,14 @@ build all: phony untitled
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/ive/CLionProjects/untitled/CMakeLists.txt /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindPkgConfig.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/ive/CLionProjects/pdfTopng/untitled/CMakeLists.txt /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindPkgConfig.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/ive/CLionProjects/untitled/CMakeLists.txt /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindPkgConfig.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build /home/ive/CLionProjects/pdfTopng/untitled/CMakeLists.txt /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindPkgConfig.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake /opt/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################
